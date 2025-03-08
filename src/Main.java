@@ -6,10 +6,10 @@ public class Main {
 
         // Crea un pedido para un cliente VIP
         Pedido pedido2 = new Pedido(new Cliente(true, "Juan de todos los santos", 2));
-        pedido2.procesarPedidoVIP(101);
+        pedido2.procesarPedido(101);
 
         // Convierte al cliente 1 en VIP y procesa un nuevo pedido de 1000 €
         pedido1.getCliente().setEsVip(true);
-        pedido1.procesarPedidoVIP(1000);
+        pedido1.procesarPedido(1000);
     }
 }
