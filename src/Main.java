@@ -1,4 +1,13 @@
+/**
+ * Clase principal que prueba la funcionalidad de Cliente y Pedido.
+ */
+
 public class Main {
+
+    /**
+     * Método principal que ejecuta la prueba de pedidos con clientes normales y VIP.
+     * @param args Argumentos de línea de comandos (no utilizados).
+     */
     public static void main(String[] args) {
         // Crea un pedido para un cliente normal
         Pedido pedido1 = new Pedido(new Cliente(false, "Juan", 1));
